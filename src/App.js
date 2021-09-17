@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 
+import PricingContent from "./pages/Home"
 function App() {
   return (
     <div className="App">
+      {/* 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://eleconomista.com.ar/wp-content/uploads/2020/03/logo-banco-Galicia-1024x576.png" className="App-logo" alt="logo" />
         <p>
-          Esta es una aplicación realizada para examen de selección de Banco Galicia 5
+          Esta es una aplicación realizada para examen de selección de Banco Galicia
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.bancogalicia.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Página Web
         </a>
       </header>
+    */}
+      <PricingContent />
     </div>
+
   );
 }
 
