@@ -1,4 +1,13 @@
-FROM node:latest
-WORKDIR /usr/src
+FROM node:14
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
 COPY . .
-CMD ["node", "hola-mundo.js" ]
+
+EXPOSE 3000
+
+CMD ["npm", "start" ]
