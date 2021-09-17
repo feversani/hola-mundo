@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Esta es una aplicación realizada para examen de selección de Banco Galicia 4
+          Esta es una aplicación realizada para examen de selección de Banco Galicia 5
         </p>
         <a
           className="App-link"
